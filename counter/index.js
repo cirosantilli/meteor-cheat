@@ -8,7 +8,7 @@ if (Meteor.isClient) {
   });
 
   Template.hello.events({
-    // TODO is click button magic?
+    // TODO confirm `click` is a magic Meteor string, button is a CSS selector.
     'click button': function () {
       Session.set('counter', Session.get('counter') + 1);
     }

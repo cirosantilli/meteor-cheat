@@ -22,8 +22,10 @@ Create a demo project:
 
     meteor create --example clock
 
-The server watches your project, and makes you browser refresh automatically!
-
-How: <http://stackoverflow.com/questions/10103470/how-does-meteor-update-the-browser>
+The server watches your project, and makes you browser refresh automatically! How: <http://stackoverflow.com/questions/10103470/how-does-meteor-update-the-browser>
 
 Likely server sent events.
+
+Interact with database:
+
+    meteor mongo

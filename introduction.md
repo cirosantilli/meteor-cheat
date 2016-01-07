@@ -1,10 +1,24 @@
 # Introduction
 
+Meteor is pretty radical, as it blurs the division between front and back-end.
+
 Features:
 
-- server push for everything (try opening two browser tabs)
-- identical JavaScript DB access from client and server
-- user accounts out of the box
+-   server push for everything (try opening two browser tabs)
+
+    Made to create single page applications.
+
+    TODO: how it is documented.
+
+    WebSockets based: <https://www.quora.com/How-does-Meteor-Javascript-platform-push-realtime-app-updates-to-all-clients-without-them-having-to-refresh>
+
+-   identical JavaScript DB access from client and server: even stronger than a single language as in a Node.js framework like MEAN.
+
+    Well, almost, because that would break up security... <https://www.discovermeteor.com/blog/meteor-methods-client-side-operations/>
+
+-   templates are updated automatically when underlying database is changed
+
+-   user accounts out of the box
 
 Downsides:
 

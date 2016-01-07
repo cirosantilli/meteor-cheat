@@ -9,7 +9,8 @@ Source code: <https://github.com/meteor/meteor>
 1.  Examples
     1.  [min](min/)
     1.  [css](css/)
-    1.  [two-htmls](two-htmls/)
+    1.  [two HTMLs](two-htmls/)
+    1.  [Tag update](tag-update/)
     1.  Built-in samples
         1.  [Counter](counter/)
         1.  [Clock](clock/)

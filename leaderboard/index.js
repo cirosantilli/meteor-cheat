@@ -29,9 +29,6 @@ if (Meteor.isClient) {
   Template.player.events({
     'click': function () {
       Session.set('selectedPlayer', this._id);
-      console.log(this._id)
-      console.log(this.constructor.toString())
-      console.log(typeof(this._id))
     }
   });
 }

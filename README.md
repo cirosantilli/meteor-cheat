@@ -11,6 +11,7 @@ Source code: <https://github.com/meteor/meteor>
     1.  [css](css/)
     1.  [two HTMLs](two-htmls/)
     1.  [Tag update](tag-update/)
+    1.  [Method](method/)
     1.  Built-in samples
         1.  [Counter](counter/)
         1.  [Clock](clock/)
@@ -19,6 +20,8 @@ Source code: <https://github.com/meteor/meteor>
         1.  [simple-todos-react](simple-todos-react/)
         1.  [simple-todos-angular](simple-todos-angular/)
         1.  [localmarket](localmarket/)
+    1.  TODO
+        1.  [Update multi](update-multi/)
 
 Install:
 
@@ -80,6 +83,10 @@ The current data context: <http://stackoverflow.com/questions/22432690/this-id-i
 
 TODO? `meteor.com` uses the hash part of the URL exclusively, e.g.: <http://docs.meteor.com/#/basic/>, where `#/basic` is the hash!
 
+- <https://meteorhacks.com/meteor-ui-pattern-keeping-app-state-in-the-url/>
+- <https://github.com/iron-meteor/iron-router>
+- <http://www.manuel-schoebel.com/blog/iron-router-tutorial>
+
 ## Output formats
 
 Meteor supports many kinds of clients, including:
@@ -105,3 +112,11 @@ equals vs get: <http://stackoverflow.com/questions/25629529/what-is-meteor-sessi
 Does not seem the same as MongoDB Node.js API on the server: <https://mongodb.github.io/node-mongodb-native/> as it is identical on both client and server! But the syntax is close.
 
 Used to be `Meteor.Collection`: <http://stackoverflow.com/questions/25756664/is-it-mongo-collection-or-meteor-collection>
+
+## Testing
+
+No standard: <http://stackoverflow.com/questions/12987525/meteor-test-driven-development>
+
+## Packages
+
+<https://atmospherejs.com/>

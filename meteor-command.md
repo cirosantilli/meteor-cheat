@@ -29,3 +29,7 @@ Likely server sent events.
 Interact with database:
 
     meteor mongo
+
+Add packages:
+
+    meteor add accounts-ui accounts-password

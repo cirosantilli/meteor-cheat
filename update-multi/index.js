@@ -8,12 +8,7 @@ if (Meteor.isClient) {
   });
   Template.body.events({
     'click .increment': function () {
-      /*
-      Must act by ID since client side.
-      this._id is explained at:
-      http://stackoverflow.com/questions/22432690/what-is-this-id-in-meteors-leader-board-example
-      */
-      Collection0.update(this._id, {$inc: {x: 1}});
+      Collection0.update({}, {$inc: {x:1}}, {multi:true});
     }
   });
 }

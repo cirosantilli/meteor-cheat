@@ -2,6 +2,8 @@
 
 Meteor is pretty radical, as it blurs the division between front and back-end.
 
+The concept is very interesting, but 1.2.1 simply does not feel mature enough for real apps.
+
 Features:
 
 -   server push for everything (try opening two browser tabs)
@@ -19,6 +21,8 @@ Features:
 -   templates are updated automatically when underlying database is changed
 
 -   user accounts out of the box
+
+-   optimistic UI <http://info.meteor.com/blog/optimistic-ui-with-meteor-latency-compensation>
 
 Downsides:
 
